@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quantum Core — FAQ</title>
+  <link rel="stylesheet" href="styyle.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f0f0f, #1b1b1b);
+      color: #e0e0e0;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+      background: #121212;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+      color: #00fff2;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: #bbb;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 14px;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+
+    nav a:hover,
+    nav a.active {
+      background: #00fff2;
+      color: #000;
+    }
+
+    .faq-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 30px;
+      padding: 50px 60px;
+    }
+
+    .faq-item {
+      background: #1e1e1e;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .faq-item:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .faq-item h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.75rem;
+      color: #00ccff;
+    }
+
+    .faq-item p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    .faq-item a {
+      color: #00ccff;
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #888;
+      background-color: #101010;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Часто задаваемые вопросы</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="principles.html">Принципы</a>
+      <a href="facts.html">Факты</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="history.html">История</a>
+      <a href="resources.html">Ресурсы</a>
+      <a href="faq.html" class="active">FAQ</a>
+    </nav>
+  </header>
+
+  <main class="faq-section">
+    <div class="faq-item">
+      <h2>Что такое Quantum Core?</h2>
+      <p>Это образовательная платформа, посвящённая квантовой механике и её практическим приложениям в современном мире.</p>
+    </div>
+    
+    <div class="faq-item">
+      <h2>Кому будет полезен этот сайт?</h2>
+      <p>Студентам, преподавателям, исследователям и всем, кто интересуется квантовыми технологиями.</p>
+    </div>
+    
+    <div class="faq-item">
+      <h2>Где можно узнать больше?</h2>
+      <p>На странице <a href="resources.html">Ресурсы</a> вы найдёте видео, статьи и внешние источники по теме.</p>
+    </div>
+    
+    <div class="faq-item">
+      <h2>Будет ли обновление контента?</h2>
+      <p>Да, сайт будет постепенно обновляться с новыми открытиями, видео и материалами.</p>
+    </div>
+
+    <div class="faq-item">
+      <h2>Кто автор проекта?</h2>
+      <p>Этот сайт разработан как креативный проект с помощью искусственного интеллекта и энтузиазма исследователя.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Quantum Core. Все права защищены.</p>
+  </footer>
+</body>
+</html>

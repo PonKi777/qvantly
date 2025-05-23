@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>История создания — Quantum Core</title>
+  <link rel="stylesheet" href="styyle.css" />
+  <style>
+    body {
+      background: #0b0b0f;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: #111;
+      padding: 20px 40px;
+      font-size: 1.2em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: #ddd;
+      margin: 0 12px;
+      text-decoration: none;
+    }
+
+    header nav a:hover {
+      color: #00ffc3;
+    }
+
+    .container {
+      max-width: 1300px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 20px;
+      text-align: center;
+      color: #00ffc3;
+    }
+
+    .intro {
+      font-size: 1.2em;
+      line-height: 1.6;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-bottom: 60px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      border: 2px solid #444;
+      box-shadow: 0 0 15px rgba(0, 255, 195, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .video-section {
+      margin-top: 40px;
+    }
+
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,255,195,0.1);
+    }
+
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .external-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 18px;
+      background: #00ffc3;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .external-button:hover {
+      background: #00c2a1;
+    }
+
+    footer {
+      background: #111;
+      color: #888;
+      text-align: center;
+      padding: 30px 10px;
+      margin-top: 80px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div><strong>Quantum Core</strong></div>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="principles.html">Принципы</a>
+      <a href="facts.html">Факты</a>
+      <a href="resources.html">Ресурсы</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="history.html">История</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>История создания</h1>
+    <p class="intro">
+      Идея Quantum Core возникла как результат глубокого любопытства и множества случайных наблюдений. Вдохновением послужили работы в области квантовой механики, неортодоксальные подходы и мыслительные эксперименты.
+    </p>
+
+    <div class="gallery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Niels_Bohr.jpg" alt="Нильс Бор">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Young_physicists_at_work.jpg" alt="Молодые физики">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Quantum_lab.jpg" alt="Квантовая лаборатория">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Student_experiment.jpg" alt="Эксперимент студента">
+    </div>
+
+    <div class="video-section">
+      <h2>Видео об открытиях</h2>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/F_Riqjdh2oM" title="Видео о квантовой механике" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <a class="external-button" href="https://www.youtube.com/watch?v=F_Riqjdh2oM" target="_blank">Смотреть на YouTube</a>
+
+      <div class="video-wrapper" style="margin-top: 40px;">
+        <iframe src="https://www.youtube.com/embed/CBrsWPCp_rs" title="Квантовая запутанность" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <a class="external-button" href="https://www.youtube.com/watch?v=CBrsWPCp_rs" target="_blank">Смотреть на YouTube</a>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Quantum Core — Все права защищены
+  </footer>
+
+</body>
+</html>

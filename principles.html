@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Квантовые Принципы — Quantum Core</title>
+  <link rel="stylesheet" href="styyle.css" />
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .main-nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .main-nav a {
+      color: #ccc;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 6px 10px;
+    }
+
+    .main-nav a.active,
+    .main-nav a:hover {
+      color: #ffcc00;
+      border-bottom: 2px solid #ffcc00;
+    }
+
+    .page-content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .section-title h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+      color: #ffcc00;
+    }
+
+    .principles-list {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .principle-card {
+      background-color: #1a1a1a;
+      padding: 20px 24px;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .principle-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 20px rgba(255, 204, 0, 0.2);
+    }
+
+    .principle-card h2 {
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-size: 1.4em;
+      color: #ffcc00;
+    }
+
+    .principle-card p {
+      margin: 0;
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.9em;
+      background-color: #000;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="principles.html" class="active">Принципы</a></li>
+        <li><a href="facts.html">Факты</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="history.html">История</a></li>
+        <li><a href="resources.html">Ресурсы</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <section class="section-title">
+      <h1>Квантовые Принципы</h1>
+      <p>Основополагающие идеи, лежащие в основе квантовой физики.</p>
+    </section>
+
+    <section class="principles-list">
+
+      <div class="principle-card">
+        <h2>Принцип неопределённости Гейзенберга</h2>
+        <p>Невозможно точно измерить одновременно импульс и координату частицы. Это не ограничение прибора, а фундаментальный закон природы.</p>
+      </div>
+
+      <div class="principle-card">
+        <h2>Принцип суперпозиции</h2>
+        <p>Квантовая система может находиться одновременно во всех возможных состояниях до момента измерения.</p>
+      </div>
+
+      <div class="principle-card">
+        <h2>Квантовая запутанность</h2>
+        <p>Частицы могут быть связаны так, что изменение одной моментально влияет на другую, независимо от расстояния между ними.</p>
+      </div>
+
+      <div class="principle-card">
+        <h2>Квантовый туннелирование</h2>
+        <p>Частица может пройти через потенциальный барьер, даже если по классическим законам это невозможно.</p>
+      </div>
+
+      <div class="principle-card">
+        <h2>Квантовая интерференция</h2>
+        <p>Волновые функции квантовых частиц могут складываться, усиливая или ослабляя вероятность определённых исходов.</p>
+      </div>
+
+      <div class="principle-card">
+        <h2>Дуализм волны и частицы</h2>
+        <p>Кванты могут проявлять свойства как частиц, так и волн — в зависимости от условий наблюдения.</p>
+      </div>
+
+      <div class="principle-card">
+        <h2>Коллапс волновой функции</h2>
+        <p>В момент измерения квантовая система "выбирает" одно из возможных состояний, уничтожая суперпозицию.</p>
+      </div>
+
+      <div class="principle-card">
+        <h2>Квантовая дискретность</h2>
+        <p>Физические величины (энергия, спин и др.) в квантовом мире принимают только определённые дискретные значения.</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Quantum Core. Все права защищены.</p>
+  </footer>
+</body>
+</html>

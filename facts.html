@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Квантовые факты</title>
+  <link rel="stylesheet" href="styyle.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #0f0f0f, #1b1b1b);
+      color: #e0e0e0;
+    }
+
+    .page-header {
+      text-align: center;
+      padding: 60px 20px 30px;
+      background: #121212;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .page-header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+      color: #00fff2;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+    .facts-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 30px;
+      padding: 40px 60px;
+    }
+
+    .fact-block {
+      background: #1e1e1e;
+      border: 1px solid #2a2a2a;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .fact-block:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .fact-block h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+      color: #00ccff;
+    }
+
+    .fact-block p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    .footer-block {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #888;
+      background-color: #101010;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+  <header class="page-header">
+    <h1>Значимые факты квантовой физики</h1>
+    <p class="subtitle">Наблюдения, открытия и парадоксы, изменившие науку</p>
+  </header>
+
+  <main class="facts-container">
+    <section class="fact-block">
+      <h2>1. Принцип неопределённости Гейзенберга</h2>
+      <p>
+        Согласно этому принципу, невозможно одновременно точно измерить положение и импульс частицы. Чем точнее одно измерение, тем менее точно другое.
+      </p>
+    </section>
+
+    <section class="fact-block">
+      <h2>2. Суперпозиция</h2>
+      <p>
+        Частица может находиться в нескольких состояниях одновременно до момента измерения. Пример — электрон в атоме или кубит в квантовом компьютере.
+      </p>
+    </section>
+
+    <section class="fact-block">
+      <h2>3. Квантовая запутанность</h2>
+      <p>
+        Две частицы могут оставаться связанными вне зависимости от расстояния между ними. Изменение состояния одной мгновенно влияет на другую.
+      </p>
+    </section>
+
+    <section class="fact-block">
+      <h2>4. Туннельный эффект</h2>
+      <p>
+        Частица может "пройти сквозь" потенциальный барьер, даже если у неё недостаточно энергии — эффект, невозможный в классической физике.
+      </p>
+    </section>
+
+    <section class="fact-block">
+      <h2>5. Квантовый вакуум</h2>
+      <p>
+        Даже в "пустом" пространстве квантовая теория предсказывает флуктуации — частицы и античастицы могут рождаться и исчезать мгновенно.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer-block">
+    <p>© 2025 Quantum Core. Все права защищены.</p>
+  </footer>
+</body>
+</html>
